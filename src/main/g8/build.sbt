@@ -21,7 +21,7 @@ libraryDependencies += "me.xethh.utils" % "DateUtils" % "6.0.0.RC8"
 
 // Logging
 val log4jVersion = "2.13.3"
-libraryDependencies += "org.apache.logging.log4j" % "log4j-slf4j18-impl" % s"\${log4jVersion}"
+libraryDependencies += "org.apache.logging.log4j" % "log4j-slf4j-impl" % s"\${log4jVersion}"
 libraryDependencies += "org.apache.logging.log4j" % "log4j-api" % s"\${log4jVersion}"
 libraryDependencies += "org.apache.logging.log4j" % "log4j-core" % s"\${log4jVersion}"
 
